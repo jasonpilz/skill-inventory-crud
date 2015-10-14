@@ -6,5 +6,4 @@ class Skill
     @name   = data['name']
     @status = data['status']
   end
-
 end
