@@ -1,5 +1,4 @@
 class SkillInventoryApp < Sinatra::Base
-
   get '/' do
     erb :dashboard
   end
@@ -19,7 +18,6 @@ class SkillInventoryApp < Sinatra::Base
     @skill = SkillInventory.find(id.to_i)
     erb :show
   end
-
 
   post '/skills' do
     SkillInventory.create(params[:skill])
