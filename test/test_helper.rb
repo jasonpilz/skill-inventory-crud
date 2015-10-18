@@ -15,7 +15,6 @@ class Minitest::Test
 
   def teardown
     DatabaseCleaner.clean
-    #SkillInventory.delete_all
   end
 end
 

@@ -2,7 +2,6 @@ require_relative '../test_helper'
 
 class NewSkillTest < FeatureTest
   def test_user_can_create_a_skill
-    skip
     visit "/skills/new"
     assert_equal "/skills/new", current_path
 
